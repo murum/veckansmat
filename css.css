@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+html, body {
+	background: url('food.png');
+	color: #404040;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 300;
+	text-align: center;
+}
+
+a {
+	color: #404040;
+}
+
+.container {
+	max-width: 768px;
+}
+
+a:hover {
+	color: #404040;	
+	text-decoration: underline;
+}
+
+ul.recipes {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+ul.recipes li {
+	width: 100%;
+	margin: 0 auto;
+
+	border-bottom: 1px solid #404040;
+}
+
+ul.recipes li img{
+	width: 100%;
+	border: 2px solid #404040;
+}
+
+ul.recipes li .rank {
+	font-size: 2em;
+}
